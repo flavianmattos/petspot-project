@@ -1,0 +1,193 @@
+
+body{
+	max-width: 1200px;
+	margin:0 auto;
+	padding:0px;
+	
+}
+h1,h2,h3,h4{
+	color: #624342;
+}
+/**********HEADER*************/
+
+
+
+header img{
+	width: 95%;
+	height: 110px;
+	padding:15px 0px 15px 15px;
+
+}
+.header-phone{
+	float: right;
+	padding:10px 20px 0px 0px;
+	line-height: 15px;
+}
+.header-phone h4{
+	padding-left: 45px;
+}
+.header-phone h2{
+	color: orange;
+}
+
+.nav-wrapper{
+	background-color: #624342;
+	width: 100%;
+	height: 30px;	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav{
+	padding-top: 5px;
+	margin-left: 160px;
+}
+
+.top-nav{
+	display: inline;
+	padding-right: 30px;	
+}
+
+#nav-home{
+	background: #E55E2A;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#nav-home:hover,
+#nav-sobre:hover,
+#nav-banho:hover,
+#nav-consultas:hover,
+#nav-vacinas:hover,
+#nav-acessorios:hover,
+#nav-localizacao:hover,
+#nav-fale:hover{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#nav-sobre{
+	background: #D8648D;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#nav-banho{
+	background: #5CB2B1;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#nav-consultas{
+	background: #E1BE51;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#nav-vacinas{
+	background: #E55E2A;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#nav-acessorios{
+	background: #CE4C46;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+#nav-localizacao{
+	background: #3873B8;
+	padding: 12px;
+	border-radius: 4px;
+}
+#nav-fale{
+	background: #5D5D5D;
+	padding: 12px;
+	border-radius: 4px;
+}
+/**********SOBRE NOS*************/
+
+.main-wrapper{
+	background-color: #ffe4b5;
+	border-radius: 10px;
+}
+
+.sobre-nos h3{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+}
+.sobre-nos p{
+	text-align: center;
+padding-top: 90px;
+margin-right: 30px;
+padding-left: 30px;
+
+	
+
+}
+figure img{
+	float: left;
+	border: 5px solid orange;
+	margin-right: 10px;
+	
+}
+/**********SERVICOS*************/
+
+.main{
+clear: both;
+background-color: #EF9B1D;
+}
+
+figcaption{
+	
+	
+}
+
+
+
+
+.first-img,
+.second-img,
+.third-img,
+.fourth-img{
+	width: 60px;
+	height: 60px;
+	background-color: blue;
+	
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+
+.banho-tosa,
+.atendimento,
+.vacinas,
+.acessorios{
+	text-align: center;
+	
+
+}
+
+.banho-tosa,
+.atendimento,
+.vacinas{
+	
+}
+
+.servicos{
+	
+
+}
+/**********HEADER*************/
+footer{
+	border-top: 1px solid #ffa500;
+		clear: both;
+}
+/**********HEADER*************/
