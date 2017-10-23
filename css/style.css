@@ -1,12 +1,18 @@
-
+/**********GERAL*************/
 body{
 	max-width: 1200px;
 	margin:0 auto;
 	padding:0px;
-	
+
 }
 h1,h2,h3,h4{
 	color: #624342;
+}
+
+.main-wrapper{
+	background-color: #ffe4b5;
+	border-radius: 10px;
+	margin: 20px;
 }
 /**********HEADER*************/
 
@@ -30,10 +36,12 @@ header img{
 	color: orange;
 }
 
+/**********NAV ************/
+
 .nav-wrapper{
 	background-color: #624342;
 	width: 100%;
-	height: 30px;	
+	height: 30px;
 }
 
 a{
@@ -50,7 +58,7 @@ nav{
 
 .top-nav{
 	display: inline;
-	padding-right: 30px;	
+	padding-right: 30px;
 }
 
 #nav-home{
@@ -112,82 +120,89 @@ nav{
 	border-radius: 4px;
 }
 /**********SOBRE NOS*************/
-
-.main-wrapper{
-	background-color: #ffe4b5;
-	border-radius: 10px;
-}
-
 .sobre-nos h3{
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 20px;
 }
+
 .sobre-nos p{
 	text-align: center;
-padding-top: 90px;
-margin-right: 30px;
-padding-left: 30px;
-
-	
+  padding-top: 90px;
+	margin-right: 30px;
+	padding-left: 30px;
 
 }
+
 figure img{
 	float: left;
 	border: 5px solid orange;
 	margin-right: 10px;
-	
+
 }
 /**********SERVICOS*************/
 
 .main{
-clear: both;
-background-color: #EF9B1D;
+	border-radius: 20px;
+	box-shadow: 3px 3px 5px black;
+	margin: 20px;
+	padding: 20px;
+	margin-top: 100px;
+	display: flex;
+ clear: both;
+ background-color: #f4a460;
 }
 
-figcaption{
-	
-	
-}
-
-
-
-
-.first-img,
-.second-img,
-.third-img,
-.fourth-img{
-	width: 60px;
-	height: 60px;
-	background-color: blue;
-	
+#banho-img{
 	border-radius: 50%;
-	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+}
+#atendimento-img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
 }
 
-
-.banho-tosa,
-.atendimento,
-.vacinas,
-.acessorios{
-	text-align: center;
-	
-
+#vacinas-img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+#acessorios-img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
 }
 
 .banho-tosa,
 .atendimento,
 .vacinas{
-	
+	text-align: center;
+	border-right: 1px solid black;
+	padding: 0px 10px;
+}
+
+.acessorios{
+	text-align: center;
+	padding-left: 10px;
+}
+
+.banho-tosa,
+.atendimento,
+.vacinas{
+
 }
 
 .servicos{
-	
+
 
 }
-/**********HEADER*************/
+/**********FOOTER*************/
 footer{
 	border-top: 1px solid #ffa500;
 		clear: both;
 }
-/**********HEADER*************/
+#map{
+
+}
